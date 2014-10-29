@@ -21,7 +21,7 @@ public class Main {
 
 		// this would save the Student_Info object into the database
 		session.save(student);
-		
+		//validate transaction
 		session.getTransaction().commit();
 		session.close();
 		sessionFactory.close();

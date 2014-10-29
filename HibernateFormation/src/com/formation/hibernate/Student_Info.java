@@ -17,7 +17,7 @@ public class Student_Info {
 	@GeneratedValue(strategy= GenerationType.IDENTITY) /*** IDENTITY for my sql database***/
 	private int    roll_no;
 	
-	/** Some other hibernate annotation***/
+	/*** Some other hibernate annotation ***/
 	@Column(name="name", nullable=false)
 	private String name;
 
