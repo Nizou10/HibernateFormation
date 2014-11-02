@@ -11,7 +11,7 @@ public class Main {
 		
 		// Write the Student_Info object into the database
 		Student_Info student = new Student_Info();
-		student.setName("student1");
+		student.setName("student12");
 		//student.setRoll_no(1);
 
 		
